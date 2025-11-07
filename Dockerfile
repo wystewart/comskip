@@ -11,7 +11,7 @@ RUN apk --no-cache add python3 py3-pip ffmpeg tzdata bash curl \
 && cd argtable2-13/ && ./configure && make && make install \
 && cd /tmp && wget https://github.com/erikkaashoek/Comskip/archive/refs/tags/V0.83.tar.gz -O /tmp/comskip-0.83.tar.gz \
 && tar xfz ./comskip-0.83.tar.gz \
-&& cd Comskip-0.82.009 && ./autogen.sh && ./configure && make && make install \
+&& cd Comskip-0.83 && ./autogen.sh && ./configure && make && make install \
 && cd /tmp && git clone https://github.com/BrettSheleski/comchap.git \
 && cd comchap && make && make install \
 && apk del builddeps \
