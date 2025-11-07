@@ -1,5 +1,5 @@
 api:
-  apikey: "YOUR_GENERATED_API_KEY" # replace this with your own generated key
+  apikey: "12345678" # replace this with your own generated key
   log_dir: "/data/logs"
   log_level: "debug"
   library_dir: "/library"
