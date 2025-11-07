@@ -1,4 +1,4 @@
-# Comakip
+# Comskip
 This is a basic container that wraps the [Comskip](https://github.com/erikkaashoek/Comskip) and [Comchap](https://github.com/BrettSheleski/comchap) utilities.  It utilizes a REST api endpoint to accept filenames for the commercial skipping process.  I'm using it with the following workflow:
 
 1. OTA shows get recorded by [Jellyin](https://jellyfin.org/) and saved into a *DVR* directory on an NFS share
