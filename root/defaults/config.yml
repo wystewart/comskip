@@ -3,7 +3,7 @@ api:
   log_dir: "/data/logs"
   log_level: "debug"
   library_dir: "/library"
-  port: 8080
+  port: 9000
 
 comskip:
   comskip_cmd: "/usr/local/bin/comskip"
